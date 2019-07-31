@@ -1,11 +1,16 @@
 <template>
   <div class="home">
-    <div class="image">
-      <!-- <AboutMe /> -->
-      <h1 class="homeTitle">Kelly Phillips • Software Developer</h1>
-
-
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="title">Kelly Phillips</h1>
+          <h1>Software Developer</h1>
+          <hr class="title-hr">
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
     </div>
+
   </div>
 </template>
 
@@ -24,17 +29,21 @@
 </script>
 
 <style>
-  .image {
-    background-image: url(../assets/zhang-kaiyv--ozSZ9PaIew-unsplash.jpg);
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
+  body {
+    background-color: rgb(37, 37, 37);
   }
 
-  .homeTitle {
-    text-align: center;
+  .title {
+    margin-top: 10vh;
+  }
+
+  .title-hr {
+    color: white;
+    border-top: 1px solid white;
+    width: 55vw;
+  }
+
+  .fab {
+    font-size: 3rem;
   }
 </style>

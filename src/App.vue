@@ -13,27 +13,26 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    color: #ffffff;
+    text-shadow: 2px 1px #3f32ff;
   }
 
   body {
-    background-color: #7681b3;
-    color: #000000;
+    background-color: #ffffff;
+    color: #ffffff;
     position: relative;
     height: 100%;
     width: 100%;
-
   }
-
-
 
   #nav {
     padding: 30px;
+    color: #5cd9ff;
   }
 
   #nav a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #5cd9ff;
   }
 
   #nav a.router-link-exact-active {
