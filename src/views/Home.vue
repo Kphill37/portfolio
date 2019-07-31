@@ -16,7 +16,8 @@
 
     <AboutMe />
 
-    <Skills />
+    <skills />
+
 
   </div>
 </template>
