@@ -2,10 +2,35 @@
   <div class="container-fluid">
     <div class="row Skills">
       <div class="col-2">
-        <h1 class>
+        <h1 id="LandF">
           Languages
           <br />and
           <br />Frameworks:
+        </h1>
+      </div>
+      <div class="col-2">
+        <img src="../assets/HTML5-250.png" alt />
+      </div>
+      <div class="col-2">
+        <img src="../assets/JS-250.png" alt />
+      </div>
+      <div class="col-2">
+        <img src="../assets/CSS3-250.png" alt />
+      </div>
+      <div class="col-2">
+        <img src="../assets/C-250.png" alt />
+      </div>
+      <div class="col-2">
+        <img src="../assets/vuejs.png" alt />
+      </div>
+    </div>
+
+    <div class="row Skills">
+      <div class="col-2">
+        <h1 id="SandD">
+          Servers
+          <br />and
+          <br />Databases:
         </h1>
       </div>
       <div class="col-2">
@@ -35,6 +60,9 @@
 
 <style>
 .Skills {
-  margin-top: 10vh;
+  margin-top: 40vh;
+}
+#LandF {
+  justify-content: center;
 }
 </style>
