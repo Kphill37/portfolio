@@ -2,7 +2,11 @@
   <div class="container-fluid">
     <div class="row Skills">
       <div class="col-2">
-        <h2>Skills and Frameworks:</h2>
+        <h1 class>
+          Languages
+          <br />and
+          <br />Frameworks:
+        </h1>
       </div>
       <div class="col-2">
         <img src="../assets/HTML5-250.png" alt />
