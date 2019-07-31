@@ -4,8 +4,21 @@
       <router-link to="/">Home</router-link>
     </div> -->
     <router-view />
+    <back-to-top bottom="50px" right="50px">
+      <button type="button" class="btn btn-dark btn-to-top"><i class="fa fa-chevron-up"></i></button>
+    </back-to-top>
   </div>
 </template>
+
+<script>
+  import BackToTop from 'vue-backtotop'
+
+  export default {
+    components: {
+      BackToTop
+    }
+  }
+</script>
 
 <style>
   #app {
@@ -38,5 +51,15 @@
 
   #nav a.router-link-exact-active {
     color: #229460;
+  }
+
+  .btn-to-top {
+    color: green;
+    width: 60px;
+    height: 60px;
+    padding: 10px 16px;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 22px;
   }
 </style>

@@ -19,6 +19,8 @@
 
     <Skills />
 
+    <Pieces />
+
 
 
   </div>
@@ -29,13 +31,15 @@
   import AboutMe from '@/components/AboutMe.vue'
   import Landing from '@/components/Landing.vue'
   import Skills from '@/components/Skills.vue'
+  import Pieces from '@/components/Pieces.vue'
 
   export default {
     name: 'home',
     components: {
       AboutMe,
       Landing,
-      Skills
+      Skills,
+      Pieces
     }
   }
 </script>
