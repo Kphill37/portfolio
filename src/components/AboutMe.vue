@@ -1,9 +1,16 @@
 <template>
-  <div class="container-fluid h-50">
-    <div class="row aboutme h-50">
-
-      <div class="col-12">
-        <div class="aboutText">Up and coming Full Stack Software Developer with an intimate passion for coding
+  <div class="container-fluid">
+    <div class="row aboutme">
+      <div class="col-5">
+        <div class="imgCrop">
+          <img class="profilePic"
+            src="https://photos.smugmug.com/CodeWorks-Summer-2019/n-4Q2tbf/i-bVm2Wmp/0/c5f92cb4/XL/i-bVm2Wmp-XL.jpg"
+            alt="">
+        </div>
+      </div>
+      <div class="col-7 aboutText">
+        <h1>About Me: </h1>
+        <div class="aboutText">I am a Full Stack Software Developer with an intimate passion for coding
           and
           technology, and with a desire to
           create, connect, and grow with my peers in a professional setting. My first exposure to coding began with
@@ -31,7 +38,8 @@
           ensuring
           the project goes smoothly, and according to plan. Training in Agile Development / Scrum has also allowed me
           to build up
-          my time management skills to complete project goals within strict time windows. Development and technology
+          my time management skills to complete project goals within strict time windows. Development and technology for
+          me
           is a full
           time passion that I'm certain I will never be tired of!
         </div>
@@ -40,7 +48,12 @@
   </div>
 </template>
 
+
+
 <script>
+
+
+
 
 
 
@@ -58,15 +71,12 @@
 
   .aboutsection {
     width: 100vw;
-    display: inline-block;
-    position: relative;
-
   }
 
   .aboutText {
     height: 50vh;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 2%;
     max-width: 100%;
     font-size: 1em;
     word-wrap: break-word;
@@ -74,14 +84,21 @@
     overflow: hidden;
   }
 
-  .aboutmepic {
-    object-fit: cover;
-    height: 475px;
-    width: 475px;
-    object-position: 0 20%;
-    display: inline-block;
+  .imgCrop {
+    margin-top: 2vh;
     max-width: 100%;
-    position: static;
-    overflow: hidden;
+    height: 60%;
+    position: relative;
+  }
+
+  .profilePic {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    border: 2px solid rgb(0, 0, 0);
+    -webkit-border-radius: 35%;
+    -moz-border-radius: 35%;
+    border-radius: 35%;
   }
 </style>

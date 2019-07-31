@@ -9,12 +9,12 @@
 
 <style>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'PT Mono', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #ffffff;
-    text-shadow: 2px 1px #3f32ff;
+    text-shadow: 2px 2px #000000;
   }
 
   body {
