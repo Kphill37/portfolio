@@ -2,7 +2,7 @@
   <div class="home">
     <div class="container-fluid landing">
       <div class="row">
-        <div class="col-12">
+        <div class="col-lg-12 credentials">
           <h1 class="name">> Kelly Phillips</h1>
           <h1 class="title">Software Developer</h1>
           <hr class="name-hr">
@@ -14,9 +14,11 @@
       </div>
     </div>
 
+
     <AboutMe />
 
-    <skills />
+    <Skills />
+
 
 
   </div>
@@ -45,8 +47,13 @@
   }
 
   .landing {
+    width: 123vw;
+    height: auto;
+    display: block;
     margin-right: 40vw;
+    background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
     min-height: 100vh;
   }
@@ -95,5 +102,9 @@
   i:hover {
     opacity: 1;
     transition: 0.3s;
+  }
+
+  .credentials {
+    max-width: 79%;
   }
 </style>

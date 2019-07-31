@@ -1,14 +1,12 @@
 <template>
-  <div class="container-fluid">
+  <div class="AboutMe">
     <div class="row aboutme">
-      <div class="col-5">
-        <div class="imgCrop">
-          <img class="profilePic"
-            src="https://photos.smugmug.com/CodeWorks-Summer-2019/n-4Q2tbf/i-bVm2Wmp/0/c5f92cb4/XL/i-bVm2Wmp-XL.jpg"
-            alt="">
-        </div>
+      <div class="col-lg-5 col-md-6">
+        <img id="profilepic"
+          src="https://photos.smugmug.com/CodeWorks-Summer-2019/n-4Q2tbf/i-bVm2Wmp/0/c5f92cb4/X2/i-bVm2Wmp-X2.jpg"
+          alt="">
       </div>
-      <div class="col-7 aboutText">
+      <div class="col-lg-7 col-md-6 aboutText">
         <h1>About Me: </h1>
         <div class="aboutText">I am a Full Stack Software Developer with an intimate passion for coding
           and
@@ -66,7 +64,8 @@
   }
 
   .aboutme {
-    height: 200px;
+    height: auto;
+    margin-bottom: 2%;
   }
 
   .aboutsection {
@@ -74,14 +73,13 @@
   }
 
   .aboutText {
-    height: 50vh;
+    height: auto;
     text-align: center;
     margin-top: 2%;
     max-width: 100%;
     font-size: 1em;
     word-wrap: break-word;
     display: inline-block;
-    overflow: hidden;
   }
 
   .imgCrop {
@@ -91,14 +89,15 @@
     position: relative;
   }
 
-  .profilePic {
+  #profilepic {
     display: block;
-    margin: 0 auto;
-    height: 100%;
+    margin: auto auto;
+    max-height: 54vh;
     width: auto;
     border: 2px solid rgb(0, 0, 0);
-    -webkit-border-radius: 35%;
-    -moz-border-radius: 35%;
-    border-radius: 35%;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
   }
 </style>

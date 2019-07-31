@@ -15,6 +15,7 @@
     text-align: center;
     color: #ffffff;
     text-shadow: 2px 2px #000000;
+    overflow-x: hidden;
   }
 
   body {
