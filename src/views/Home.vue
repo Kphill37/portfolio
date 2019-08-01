@@ -6,10 +6,18 @@
           <h1 class="name">> Kelly Phillips</h1>
           <h1 class="title">Software Developer</h1>
           <hr class="name-hr">
-          <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Github"></i>
-          <i class="fab fa-linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin"></i>
-          <i class="fas fa-envelope-square" data-toggle="tooltip" data-placement="bottom" title="Email"></i>
-          <i class="far fa-file" data-toggle="tooltip" data-placement="bottom" title="Resume"></i>
+          <a href="https://github.com/Kphill37">
+            <i class="fab fa-github" data-toggle="tooltip" data-placement="bottom" title="Github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kelly-a-phillips/">
+            <i class="fab fa-linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin"></i>
+          </a>
+          <a href="mailto:kelly.a.phillips@outlook.com">
+            <i class="fas fa-envelope-square" data-toggle="tooltip" data-placement="bottom" title="Email"></i>
+          </a>
+          <a href="../assets/Kelly Phillips Resume.pdf" download>
+            <i class="far fa-file" data-toggle="tooltip" data-placement="bottom" title="Resume"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -20,6 +28,10 @@
     <Skills />
 
     <Pieces />
+
+    <Footer />
+
+
 
 
 
@@ -32,6 +44,7 @@
   import Landing from '@/components/Landing.vue'
   import Skills from '@/components/Skills.vue'
   import Pieces from '@/components/Pieces.vue'
+  import Footer from '@/components/Footer.vue'
 
   export default {
     name: 'home',
@@ -39,7 +52,8 @@
       AboutMe,
       Landing,
       Skills,
-      Pieces
+      Pieces,
+      Footer
     }
   }
 </script>
@@ -48,6 +62,10 @@
   body {
     background-color: rgb(37, 37, 37);
     stroke: black;
+  }
+
+  a {
+    color: white;
   }
 
   .landing {

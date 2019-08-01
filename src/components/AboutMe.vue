@@ -65,7 +65,8 @@
 
   .aboutme {
     height: auto;
-    margin-bottom: 2%;
+    margin-bottom: 8%;
+    margin-top: 8%;
   }
 
   .aboutsection {

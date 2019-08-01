@@ -1,8 +1,11 @@
 <template>
   <div class="container-fluid Pieces">
     <div class="row">
+      <div class="col-12">
+        <h1 class="mt-2 float-left">Portfolio: </h1>
+      </div>
       <div class="col-lg-4 col-md-12">
-        <h1 class="mt-2">Portfolio: </h1>
+
         <div class="card">
           <img class="card-img-top"
             src="https://thehappypuppysite.com/wp-content/uploads/2018/07/doggy-daycare-long-1024x555.jpg"
@@ -61,7 +64,13 @@
 <style scoped>
   .card {
     margin-top: 4vh;
+    margin-bottom: 4vh;
     background-color: transparent;
     border: 3px solid black;
+    height: 67vh;
+  }
+
+  .card-img-top {
+    height: 35vh;
   }
 </style>

@@ -53,7 +53,8 @@
 
 <style>
 .Skills {
-  margin: auto auto;
+  margin-bottom: 8%;
+  margin-top: 8%;
 }
 #LandF {
   justify-content: center;
