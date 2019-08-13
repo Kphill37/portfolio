@@ -2,7 +2,7 @@
   <div class="Skills">
     <div class="row LandF">
       <div class="col-lg-2 col-md-12">
-        <h1 class="text-center" id="LandF">Languages and Frameworks:</h1>
+        <h1 class="text-center" id="LandF">Languages & Frameworks:</h1>
       </div>
       <div class="col-lg-2 col-md-4">
         <img src="../assets/HTML5-250.png" alt />
@@ -25,7 +25,7 @@
       <div class="col-lg-2 col-md-12">
         <h1 id="SandD">
           Servers
-          <br />and
+          <br />&
           <br />Databases:
         </h1>
       </div>
@@ -52,19 +52,26 @@
 
 
 <style>
-.Skills {
-  margin-bottom: 8%;
-  margin-top: 8%;
-}
-#LandF {
-  justify-content: center;
-  margin-top: 6vh;
-}
-#SandD {
-  margin-top: 4vh;
-}
-#dotnet {
-  height: 220px;
-  width: 220px;
-}
+  .Skills {
+    margin-bottom: 8%;
+    margin-top: 8%;
+  }
+
+  #LandF {
+    justify-content: center;
+    margin-top: 6vh;
+  }
+
+  #SandD {
+    margin-top: 4vh;
+  }
+
+  #dotnet {
+    height: 220px;
+    width: 220px;
+  }
+
+  h1 {
+    margin-left: 2vw;
+  }
 </style>

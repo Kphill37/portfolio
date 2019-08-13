@@ -10,18 +10,21 @@
         <h1>About Me: </h1>
         <div class="aboutText">I am a Full Stack Software Developer with an intimate passion for coding
           and
-          technology, and with a desire to
+          technology; with a desire to
           create, connect, and grow with my peers in a professional setting. My first exposure to coding began with
           introductory
           Java and C++ college courses. I've always loved the problem solving, and creativity that can be expressed
           with coding,
-          and I knew I wanted to narrow my scope. Since attending Boise Codeworks, I have also picked up HTML5, CSS3,
+          and I knew I wanted to narrow my scope to building applications. Since attending Boise Codeworks, I have also
+          picked up HTML5, CSS3,
           JavaScript,
           and C#. During my journey, I've built full stack applications utilizing tools such as: NodeJS, MongoDB, Dot
           NET Web
           APIs, JavaScript Frameworks, and even a few projects incorporating 3rd party APIs like Unsplash, iTunes, and
           more.
 
+
+          <br><br>
           I am excited to continue through the wide world of Software Development, and learn everything I can so that
           I may pass
           it on to my peers, and future developers. Where I can, I strive to be "the guy" people come to when there's
@@ -74,10 +77,10 @@
   }
 
   .aboutText {
-    height: auto;
+    height: 35%;
     text-align: center;
     margin-top: 2%;
-    max-width: 100%;
+    max-width: 95%;
     font-size: 1em;
     word-wrap: break-word;
     display: inline-block;
@@ -93,7 +96,7 @@
   #profilepic {
     display: block;
     margin: auto auto;
-    max-height: 54vh;
+    max-height: 60vh;
     width: auto;
     border: 2px solid rgb(0, 0, 0);
     border-top-left-radius: 300px;

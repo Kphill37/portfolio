@@ -29,8 +29,11 @@
             <p class="card-text">Worked on a team of 3 to create a project organization site similar to Trello Boards.
               Utilizses Node.js, Vue.js, the observer pattern, and user auth.
             </p>
-            <a href="https://procrasti-nation.herokuapp.com/#/login" class="btn btn-primary mt-2">Demo Link</a><br />
-            <a href="https://github.com/Kphill37/kanban-checkpoint" class="btn btn-primary mt-2">Visit Github Link</a>
+            <a href="https://procrasti-nation.herokuapp.com/#/login" id="kanban" class="btn btn-primary mt-2">Demo
+              Link</a><br />
+            <a href="https://github.com/Kphill37/kanban-checkpoint" id="kanban" class="btn btn-primary mt-2">Visit
+              Github
+              Link</a>
           </div>
         </div>
       </div>
@@ -39,7 +42,8 @@
           <img class="card-img-top" src="https://puu.sh/DZLGH.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Keepr</h5>
-            <p class="card-text">A solo full-stack project creating a website similar to Pinterest. Users can browse
+            <p class="card-text kanban">A solo full-stack project creating a website similar to Pinterest. Users can
+              browse
               and submit new keeps, and save them
               to personalized vaults for later viewing. Utilizes C#, MySQL, Dapper, and successfully implements complex
               data
@@ -67,10 +71,14 @@
     margin-bottom: 4vh;
     background-color: transparent;
     border: 3px solid black;
-    height: 67vh;
+    min-height: 80vh;
   }
 
   .card-img-top {
     height: 35vh;
+  }
+
+  #kanban {
+    margin-top: 4vh;
   }
 </style>
